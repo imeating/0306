@@ -1,0 +1,31 @@
+public  class  IniTeacher {
+	public  static  void  main（String [] args）{
+		
+		
+		教師 t =  新 教師（“ A001 ”，“ Jack Chou ”，“安全”）;
+		教師 t2 =  新 教師（“ A002 ”，“ Bill BOB ”，“編程”）;
+		教師 T3 =  新 教師（“ A003 ”，“孫云”，“黑客攻擊”）;
+		//
+		t 。showMeg（）;
+		t2 。showMeg（）;
+		t3 。showMeg（）;
+		
+		String [] [] stu = {{ “ Alex ”，“ 11 ”，“ ﹐a???u ” }，
+				{ “ Paul ”，“ 12 ”，“ ?C?? ” }，
+				{ “ Ted ”，“ 13 ”，“ ﹐e?C ” }
+		};
+		學生[] s =  新 學生 [ 3 ];
+		對於（詮釋我= 0 ;我<小號。長度+ I）{
+			s [i] =  new students（stu [i] [ 0 ]，stu [i] [ 1 ]，stu [i] [ 2 ]）;
+		}}
+		
+		串 [] [] STA = {{ “暈”，“ S101 ”，“狀態1 ” }，
+				{ “ Peter ”，“ s102 ”，“ state2 ” }，
+				{ “麗莎”，“ S103 ”，“ STATE3 ” }
+		};
+		員工 [] f =  新 員工 [ 3 ];
+		對於（詮釋我= 0 ;我<小號。長度+ I）{
+			f [i] =  new  Staff（sta [i] [ 0 ]，sta [i] [ 1 ]，sta [i] [ 2 ]）;
+		}}
+	}}
+}}

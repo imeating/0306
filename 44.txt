@@ -1,0 +1,103 @@
+public class Teacher {
+	private String id;
+	private String name;
+	private String field;
+
+	public Teacher(String id, String name, String field) {
+		this.id = id;
+		this.name = name;
+		this.field = field;
+	}
+
+	public String getID() {
+		return this.id;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public String getField() {
+		return this.field;
+	}
+
+	public void showMeg() {
+		System.out.println("cm|W:" + this.getName());
+		System.out.println("?s¡M1:" + this.getID());
+		System.out.println("?a¢Xi:" + this.getField());
+		System.out.println("-----------------");
+	}
+}
+
+class students {
+	private String name, id, dept;
+
+	public students(String name1, String id1, String dept1) {
+		name = name1;
+		id = id1;
+		dept = dept1;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getID() {
+		return id;
+	}
+
+	public String getDept() {
+		return dept;
+	}
+
+	public void showAll() {
+		System.out.println(".. .. .. .. .. .. ");
+		System.out.println("name: " + this.getName());
+		System.out.println("id: " + this.getID());
+		System.out.println("name: " + this.getDept());
+		System.out.println(".. .. .. .. .. .. ..");
+	}
+
+}
+
+class Staff {
+
+	private String name, state;
+	private String id;
+
+	public Staff(String name1, String id1, String state1) {
+		name = name1;
+		id = id1;
+		state = state1;
+	}
+
+	public void setName(String name1) {
+		name = name1;
+	}
+
+	public void setID(String id1) {
+		id = id1;
+	}
+
+	public void setState(String state1) {
+		state = state1;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getID() {
+		return id;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void showAll() {
+		System.out.println(name + this.getName());
+		System.out.println(id + this.getID());
+		System.out.println(state + this.getState());
+	}
+}
